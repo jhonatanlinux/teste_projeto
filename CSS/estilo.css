@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../IMAGENS/wallpaper.jpg");
+	background-position: auto;
+	color: #ffffff;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(255, 255, 255);
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #ffffff01;
+	color: #ffffff;
+	outline: none;
+}
+
+::webkit-input-placeholder {
+	color: #fff;
+}
+:-moz-placeholder {
+	color: #fff;
+}
+::-moz-placeholder {
+	color: #fff;
+}
+:-ms-input-placeholder {
+	color: #fff;
+}
+
+div#corpo-form{
+	/*background-color: #f66333;*/
+	width: 420px;
+	margin: 150px auto 0px auto;
+}
+div#corpo-form-cad{
+	/*background-color: #f66333;*/
+	width: 420px;
+	margin: 80px auto 0px auto;
+}
+
+
+div#corpo-form h1,div#corpo-form-cad h1{
+	text-align: center;
+	padding: 20px;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 470px;
+}
+h1{
+	width: 420px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+input[type=submit]{
+	cursor: pointer;
+	background-color: #ffffff01;
+	border: none;
+	height: 55px;
+	width: 445px;
+	margin: 10px;
+}
+
+div#msg-sucesso{
+	width: 450px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(6, 162, 209, 0.349);
+	border: 1px solid rgb(1, 156, 218);
+	text-align: center;
+}
+
+div.msg-erro{
+	width: 430px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(6, 162, 209, 0.349);
+	border: 1px solid rgb(136, 0, 0);
+	text-align: center;
+}
